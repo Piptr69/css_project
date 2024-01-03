@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    height: 30%;
+    height: 25%;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -97,11 +97,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 20%;
-    background-color: red;
+    width: 70%;
+    align-self: center;
 }
 
 .box-list {
     display: flex;
+    justify-content: center;
 }
 
 .second-title {
@@ -118,7 +120,7 @@ body {
 }
 
 .footer {
-    height: 10%;
+    height: 5%;
 }
 
 .box-item {
