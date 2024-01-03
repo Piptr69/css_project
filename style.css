@@ -97,6 +97,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 20%;
+    background-color: red;
 }
 
 .box-list {
@@ -118,4 +119,10 @@ body {
 
 .footer {
     height: 10%;
+}
+
+.box-item {
+    border: solid blue 1px;
+    height: 120px;
+    width: 120px;
 }
