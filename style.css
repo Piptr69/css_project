@@ -16,7 +16,6 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     color: white;
-   
 }
 .top-header,
 .bottom-header {
@@ -80,7 +79,6 @@ body {
    width: 100px;
    height: 30px;
    border-radius: 10px;
-   flex-grow: 1;
    justify-content: center;
    align-items: center;
    font-weight: 900;
@@ -93,4 +91,31 @@ body {
 }
 .top-left-header {
     font-weight: 900;
+}
+
+.second-panel {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+.box-list {
+    display: flex;
+}
+
+.second-title {
+    display: flex;
+    justify-content: center;
+}
+
+.third-panel {
+    height: 20%;
+}
+
+.fourth-panel {
+    height: 20%;
+}
+
+.footer {
+    height: 10%;
 }
