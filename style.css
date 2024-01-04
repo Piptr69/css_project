@@ -118,6 +118,9 @@ body {
 .third-panel {
     height: 20%;
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fourth-panel {
@@ -144,4 +147,19 @@ body {
 
 .box {
     margin: 0px 24px;
+}
+
+.third-container {
+    width: 50%;
+    height: 50%;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+
+.third-text {
+    font-size: 16px;
 }
