@@ -125,6 +125,9 @@ body {
 
 .fourth-panel {
     height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -162,4 +165,33 @@ body {
 
 .third-text {
     font-size: 16px;
+}
+
+.fourth-container {
+    height: 50%;
+    width: 70%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 12px;    
+}
+
+.fourth-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.fourth-button {
+    border: white solid 2px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 8px;
+    height: 20px;
+    width: 60px;
+    text-wrap: nowrap;
+    text-align: center;
+    font-weight: 700;
 }
