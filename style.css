@@ -124,7 +124,18 @@ body {
 }
 
 .box-item {
-    border: solid blue 1px;
-    height: 120px;
-    width: 120px;
+    border: solid #3882F6 2px;
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.second-text {
+    font-size: 14px;
+    text-wrap: wrap;
+    width: 80px;
+}
+
+.box {
+    margin: 0px 24px;
 }
