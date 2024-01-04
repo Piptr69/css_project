@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    flex-grow: 1;
 }
 .top-header,
 .bottom-header {
